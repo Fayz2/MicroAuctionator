@@ -326,13 +326,13 @@ end
 
 -----------------------------------------
 
-function Atr_VersionReminder ()
-	if (not versionReminderCalled) then
-		versionReminderCalled = true;
+--function Atr_VersionReminder ()
+	--if (not versionReminderCalled) then
+		--versionReminderCalled = true;
 
-		zc.msg_atr (ZT("There is a more recent version of Auctionator: VERSION").." "..checkVerString);
-	end
-end
+		--zc.msg_atr (ZT("There is a more recent version of Auctionator: VERSION").." "..checkVerString);
+	--end
+--end
 
 
 
