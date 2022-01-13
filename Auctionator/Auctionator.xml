@@ -434,20 +434,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-
-			<Button name="Auctionator1Button" inherits="UIPanelButtonTemplate" text="Options">
-				<Size><AbsDimension x="70" y="18"/>	</Size>
-				<Anchors><Anchor point="LEFT" relativeTo="Atr_Search_Button" relativePoint="RIGHT"><Offset><AbsDimension x="165" y="0"/></Offset></Anchor></Anchors>
-				<Scripts>
-					<OnClick>
-						InterfaceOptionsFrame_OpenToCategory ("Auctionator");
-					</OnClick>
-				</Scripts>
-				<NormalFont style="GameFontNormalSmall"/>
-				<HighlightFont style="GameFontHighlightSmall"/>
-				<DisabledFont style="GameFontDisableSmall"/>
-			</Button>
-			
+	
 			<ScrollFrame name="Atr_Hlist_ScrollFrame" inherits="FauxScrollFrameTemplate" hidden="true">
 				<Size><AbsDimension x="170" y="335"/></Size>
 				<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="-193" y="-75"/></Offset></Anchor></Anchors>
