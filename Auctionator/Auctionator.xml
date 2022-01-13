@@ -522,10 +522,6 @@
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="10" y="-304"/></Offset></Anchor></Anchors>
 						</FontString>
 
-						<FontString name="Atr_Deposit_Text" inherits="GameFontHighlightSmall" text="">
-							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="10" y="-342"/></Offset></Anchor></Anchors>
-						</FontString>
-
 					</Layer>
 				</Layers>
 				
