@@ -643,7 +643,7 @@ function Atr_Init()
 		return;
 	end
 
-	zc.msg("Auctionator Initialized");
+	--zc.msg("Auctionator Initialized");
 
 	AuctionatorInited = true;
 
