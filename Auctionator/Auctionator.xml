@@ -448,18 +448,6 @@
 				<DisabledFont style="GameFontDisableSmall"/>
 			</Button>
 			
-			<Button name="Atr_FullScanButton" inherits="UIPanelButtonTemplate" text="Full Scan...">
-				<Size><AbsDimension x="74" y="18"/>	</Size>
-				<Anchors><Anchor point="RIGHT" relativeTo="Auctionator1Button" relativePoint="LEFT"><Offset><AbsDimension x="-2" y="0"/></Offset></Anchor></Anchors>
-				<Scripts>
-					<OnClick>Atr_ShowFullScanFrame();</OnClick>
-				</Scripts>
-				<NormalFont style="GameFontNormalSmall"/>
-				<HighlightFont style="GameFontHighlightSmall"/>
-				<DisabledFont style="GameFontDisableSmall"/>
-			</Button>
-			
-
 			<ScrollFrame name="Atr_Hlist_ScrollFrame" inherits="FauxScrollFrameTemplate" hidden="true">
 				<Size><AbsDimension x="170" y="335"/></Size>
 				<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="-193" y="-75"/></Offset></Anchor></Anchors>
